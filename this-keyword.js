@@ -45,7 +45,7 @@ let obj={
         }
         newfnc();
         
-    },
+    }
 };
 obj.sayname();
 
