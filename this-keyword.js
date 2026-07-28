@@ -1,6 +1,16 @@
 //=====================================X==THIS-KEYWORD==X==========================================//
 //this ek special keyword hai jo function ke andar use hota hai, aur uski value depend karti hai function kaise call hua, na ke kahan likha gaya (yaad hai humne dynamic vs lexical scope discuss kiya tha? this dynamic jaisa behave karta hai
 
+//======================================================================================================
+                                // global -- window
+                                // function -- window
+                                // method with es5 fnc -- object
+                                // method with es6 arrow fnc -- window
+                                // es5 function inside es5 method -- window
+                                // arrow function inside es5 method -- object
+                                // event handler -- element
+                                // class -- blank object
+//==============================================================================================
 
 // ⚠️========================================importent note============================
 //WINDOW KY HAI=====window = browser ka global object — jismein saari built-in cheezein (DOM, timers, alert, location, etc) rehti hain, aur jismein aapka poora JavaScript code "andar" chalta hai. Isi wajah se global scope mein this seedha window ko point karta hai.
