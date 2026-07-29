@@ -12,8 +12,25 @@ so call binding is actually that ki hum function ko call krte samay ste krr sakt
     name:"gaurav",
  };
 
- function abcd(){
+ function abcd(){ //humesha fucntion  call hoga
     console.log(this.name);
  }
 //abcd();is ko call krne pr this ki value window hai 
-abcd.call(obj);//call use krr kay window object mai convert hoo gaya
+abcd.call(obj); //call mai humesha objet pass hoga ya firr jise objet banan hai wo pass hoga //call use krr kay window object mai convert hoo gaya
+
+//===================================================================================================================
+                   //Apply bindidng
+    //apply bindiang is only used for sending two  parameter
+    //ismaai argument array kay andr pass hota hai
+
+//===================================================================================================================
+ let object ={     
+    name:"gaurav",
+    age: 22,
+ };
+
+ function abc( a,b,c){ 
+    console.log(this,a,b,c);
+ }
+
+abc.apply(object,[1,2,3]); // ye 2 parameter accept krta hai or ek array kay andr hota hai
