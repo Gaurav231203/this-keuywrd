@@ -34,3 +34,21 @@ abcd.call(obj); //call mai humesha objet pass hoga ya firr jise objet banan hai 
  }
 
 abc.apply(object,[1,2,3]); // ye 2 parameter accept krta hai or ek array kay andr hota hai
+
+/*=======================================================================================================================
+                                   BIND
+            bind() ek naya function return karta hai jisme this permanently kisi object se connect (bind) ho jata hai. Function turant execute nahi hota.
+========================================================================================================================*/
+let user = {
+    name: "Gaurav"
+};
+
+function sayHello() {
+    console.log("Hello", this.name);
+}
+
+let hello = sayHello.bind(user);//bind nay ek new function return kiya jismai this bind  hua sayHellow function say;
+
+console.log("Start");
+hello();
+console.log("End");
