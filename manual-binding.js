@@ -1,0 +1,2 @@
+//================================MANUAL-BINDING=============================================
+//Manual binding ka matlab hai — JS ko khud se, manually bata dena ke "is function ke andar this exactly ye honi chahiye" — bina us function ko object ke through call kiye.
