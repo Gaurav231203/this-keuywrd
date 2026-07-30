@@ -1,11 +1,11 @@
 //================================MANUAL-BINDING=============================================
 //Manual binding ka matlab hai — JS ko khud se, manually bata dena ke "is function ke andar this exactly ye honi chahiye" — bina us function ko object ke through call kiye.
-// we will learn about  all , apply,bind 
+// we will learn about  call , apply,bind 
 
 /*============================================================================
                   {call binding }
  
-so call binding is actually that ki hum function ko call krte samay ste krr sakte hai uski this ki value
+so call binding is actually that ki hum function ko call krte samay set  krr sakte hai uski this ki value
 ===============================================================================*/ 
 //call eg
  let obj ={      //to hum yee chahte hai ki isami to this kin value hai wo window na rh krr obj ho jaye
