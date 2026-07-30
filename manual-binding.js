@@ -51,4 +51,4 @@ let hello = sayHello.bind(user);//bind nay ek new function return kiya jismai th
 
 console.log("Start");
 hello();
-console.log("End");
+//console.log("End")
