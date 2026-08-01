@@ -100,7 +100,7 @@ const userManager = {
             // ===== Remove button banaya =====
             let removeBtn = document.createElement("button");
             removeBtn.type = "button"; // zaroori hai - warna form ke andar hone se ye "submit" ki tarah behave karega
-            removeBtn.textContent = "Remove";
+            removeBtn.textContent =+"Remove";
             removeBtn.className = "mt-4 text-red-500 hover:text-red-700 text-sm font-medium";
 
             // Remove button pe click event laga diya
